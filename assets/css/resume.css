@@ -1,0 +1,298 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+
+#body {
+	margin: 0;
+	padding: 0;
+	font-family: Noto Sans, sans-serif;
+}
+
+#header {
+	padding-bottom: 9px;
+    margin: 40px 0 20px;
+}
+
+/*******************************************
+/*
+/*
+/*	 			Header Section 
+/*
+/*
+/*******************************************/
+
+.logo {
+	width: 100%;
+}
+.btn-main, .btn-details {
+	border: 2px solid white;
+	padding: 15px 15px;
+	background: none;
+	transition: all 0.3s ease-in-out;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	color: white;
+}
+
+.btn-main:hover, .btn-details:hover {
+	text-decoration: none;
+	color: black;
+	background: white;
+	font-weight: normal;
+}
+
+#home {
+	background: url("../images/resume.jpg") no-repeat center top fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+}
+
+.navbar-default{
+	background-color: transparent;
+}
+
+#main-menu {
+	position: relative;
+	border: none;
+}
+
+#navbar-collapse-menu > a > .active {
+	font-weight: bold;
+}
+
+#main-menu a {
+	color: #bdc3c7;
+	font-family: Noto Sans, sans-serif;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	transition: all 0.3s ease-in-out;
+}
+
+#main-menu a:hover {
+	background: none;
+	color: white;
+}
+
+#jb-container-content {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 90px;
+}
+
+#jb-container-content h2 {
+	font-size: 1.5em;
+	font-style: italic;
+	font-family: EB Garamond, Handwriting;
+}
+
+#jb-container-content h1 {
+	font-size: 3em;
+	font-family: Montserrat, sans-serif;
+	margin: 20px;
+}
+
+/*******************************************
+/*
+/*
+/*	 Technologies and Education Section 
+/*
+/*
+/*******************************************/
+
+#tech-wrapper, #education-wrapper {
+	border-bottom: 1px solid #bdc3c7;
+	margin-bottom: 20px;
+}
+
+#main-wrapper h1 {
+	text-transform: uppercase;
+	font-family: Noto Sans, sans-serif;
+	font-size: 1.625em;
+	color: #2c3e50;
+}
+
+#main-wrapper h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Noto Sans, sans-serif;
+	font-size: 1em;
+	line-height: 1.1875em;
+	color: #2c3e50;
+}
+
+#main-wrapper ul {
+	margin-top: 30px;
+}
+
+#main-wrapper ul li {
+	color: #7f8c8d;
+	padding-bottom: 15px;
+}
+
+#tech-wrapper {
+	margin: 60px auto 30px auto;
+}
+
+#tech-content, #education-content {
+	margin-bottom: 20px;
+}
+
+#education-content h2 {
+	font-size: 1.125em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #2c3e50;	
+}
+
+#education-content p {
+	color: #7f8c8d;
+}
+
+/*******************************************
+/*
+/*
+/*	 			Resume Button
+/*
+/*
+/*******************************************/
+
+#resume-button {
+	margin: 60px auto;
+	text-align: center;
+}
+
+.btn-port {
+	border: 2px solid black;
+	padding: 15px 15px;
+	background: none;
+	transition: all 0.3s ease-in-out;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	color: black;
+}
+
+.btn-port:hover {
+	text-decoration: none;
+	border: 2px solid #142c3a;
+	color: white;
+	background: #142c3a;
+	font-weight: normal;
+}
+
+/*******************************************
+/*
+/*
+/*				Contact Section
+/*
+/*
+/*******************************************/
+
+#contact {
+	padding: 20px 0 15px 0;
+	height: 100%;
+	background-color: #3D3D3D;
+}
+
+#contact h1{
+	color: white;
+	font-family: EB Garamond, Handwriting;
+	margin: 20px;
+	font-size: 2em;
+}
+
+#contact h4 {
+	padding-top: 10px;
+	text-align: right;
+}
+
+/*******************************************
+/*
+/*
+/*					 Footer 
+/*
+/*
+/*******************************************/
+
+footer {
+	padding: 60px 0 60px 0;
+	width: 100%;
+	color: white;
+	background-color: #282828;
+	text-align: center;
+}
+
+footer ul {
+	border: 1px solid white;
+	list-style: none;
+}
+
+footer ul li {
+	display: inline-block;
+}
+
+footer a {
+	padding-right: 10px;
+	text-decoration: none;
+	color: #7f8c8d;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-family: Montserrat, Helvetica, sans-serif;
+}
+
+footer .fa {
+	font-size: 0.8em;
+}
+
+footer .last-child {
+	padding-right: 0;
+}
+
+footer a:hover {
+	color: white;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+footer ul li a:hover {
+	color: white;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+footer #footer-menu {
+	position: relative;
+	height: auto;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+footer #footer-menu h3 {
+	font-size: 1em;
+}
+
+footer #social-networks {
+	position: relative;
+	height: auto;
+	width: 100%;
+}
+
+footer #rights {
+	position: relative;
+	height: auto;
+	color: #6d6d6d;
+	font-size: 0.8em;
+	margin: 0 auto;
+	width: 100%;
+}
