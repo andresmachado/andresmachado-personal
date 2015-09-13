@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=EB+Garamond);
 
-#body {
+* {
 	margin: 0;
 	padding: 0;
 	font-family: Noto Sans, sans-serif;
@@ -233,7 +233,6 @@ footer {
 }
 
 footer ul {
-	border: 1px solid white;
 	list-style: none;
 }
 
@@ -254,10 +253,6 @@ footer .fa {
 	font-size: 0.8em;
 }
 
-footer .last-child {
-	padding-right: 0;
-}
-
 footer a:hover {
 	color: white;
 	text-decoration: none;
@@ -271,28 +266,13 @@ footer ul li a:hover {
 }
 
 footer #footer-menu {
-	position: relative;
-	height: auto;
 	margin: 0 auto;
 	width: 100%;
 	text-align: center;
 }
 
-footer #footer-menu h3 {
-	font-size: 1em;
-}
-
-footer #social-networks {
-	position: relative;
-	height: auto;
-	width: 100%;
-}
-
 footer #rights {
-	position: relative;
-	height: auto;
 	color: #6d6d6d;
 	font-size: 0.8em;
 	margin: 0 auto;
-	width: 100%;
 }
