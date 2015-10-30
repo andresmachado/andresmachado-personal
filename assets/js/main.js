@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
-	$(".scroll").click(function(evn){
-        evn.preventDefault();
+	$(".scroll").click(function(e){
+        e.preventDefault();
         $('html,body').scrollTo(this.hash, this.hash, {duration: 3000}); 
     });
 
